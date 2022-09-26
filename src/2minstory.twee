@@ -1,0 +1,27 @@
+:: StoryData
+{
+  "ifid": "B77609DF-C218-4D79-8393-EC8A9EC03286",
+  "format": "SugarCube",
+  "format-version": "2.36.1"
+}
+
+:: StoryTitle
+TIME'S ALMOST UP!
+
+:: Start
+!GET READY
+
+This is a story about time almost being up.
+
+[img[clock.jpg][clock]]
+
+:: clock
+@@.urgenttext;
+I said, ''TIME IS ALMOST UP''
+@@
+
+<<type 159ms>>
+...10:00PM
+...11:00PM
+...MIDNITE!
+<</type>>
