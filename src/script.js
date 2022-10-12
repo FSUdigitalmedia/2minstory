@@ -1,1 +1,1 @@
-UIBar.stow();
+menu.innerHTML = "test"
