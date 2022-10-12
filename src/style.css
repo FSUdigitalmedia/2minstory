@@ -1,5 +1,9 @@
 
-.urgenttext {
-  font-size: xx-large;
-  color: rgb(187, 18, 18);
+
+.hidden {
+  visibility: hidden;
+}
+
+.nothidden {
+  visibility: visible;
 }

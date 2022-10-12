@@ -2,26 +2,15 @@
 {
   "ifid": "B77609DF-C218-4D79-8393-EC8A9EC03286",
   "format": "SugarCube",
-  "format-version": "2.36.1"
+  "format-version": "2.34.1"
 }
 
 :: StoryTitle
-TIME'S ALMOST UP!
+Link replace test!
 
 :: Start
-!GET READY
 
-This is a story about time almost being up.
+This is <<link "a link">><<addclass ".hidden" "nothidden">><</link>> that 
+makes some other text appear below.
 
-[img[clock.jpg][clock]]
-
-:: clock
-@@.urgenttext;
-I said, ''TIME IS ALMOST UP''
-@@
-
-<<type 159ms>>
-...10:00PM
-...11:00PM
-...MIDNITE!
-<</type>>
+@@.hidden;Some text@@
